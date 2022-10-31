@@ -1,4 +1,4 @@
-const removeFromArray = (x, ...y) => x.filter(a => !y.includes(a))
+const removeFromArray = (arr, ...args) => arr.filter(x => !args.includes(x))
   
 
 // Do not edit below this line
